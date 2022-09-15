@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.tbMain)
-        supportActionBar!!.title = ""
+        supportActionBar!!.title = "MainActivity"
 
         val viewPagerAdapter = ViewPagerAdapter(supportFragmentManager)
         viewPagerAdapter.addFragment(ChatsFragment(), "Chats")
